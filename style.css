@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); /* Importing Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap'); /* Importing Montserrat font */
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: black;
+    font-family: Arial, sans-serif; /* Fallback font family */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif; /* Applying Roboto font to the container */
+}
+
+h1 {
+    color: #fff;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Different font family for heading */
+    font-size: 36px; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    letter-spacing: 2px; /* Increased letter spacing */
+    text-transform: uppercase; /* Uppercase text */
+}
+
+h2 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif; /* Applying Montserrat font to h2 */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h3 {
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.Introduct {
+    color: white;
+    font-size: 18px;
+}
+
+.Chorus {
+    color: white;
+    font-family: 'Montserrat', sans-serif; /* Applying Montserrat font to Verse and Chorus */
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.Verse{
+    color: white;
+    font-family: 'Montserrat', sans-serif; /* Applying Montserrat font to Verse and Chorus */
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+header {
+    background-image: url(56901.webp);
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    background-color: beige;
+}
+
+.audio {
+    width: 300px;
+    margin: 20px;
+}
+
+/* Styling the controls */
+audio::-webkit-media-controls-panel {
+    background-color: #333;
+    color: white;
+}
+
+audio::-webkit-media-controls-play-button {
+    background-color: white;
+}
+footer {
+    background-color: #0d0d0d; /* Light background */
+    padding: 20px; /* Add some spacing around the content */
+    text-align: center; /* Center-align the text */
+}
+
+p {
+    font-family: 'Arial', sans-serif; /* Different font for the footer text */
+    font-size: 16px;
+    color: #333; /* Dark text color */
+    margin-bottom: 10px; /* Add spacing between paragraphs */
+    font-style: italic; /* Emphasize the text */
+    font-weight: 400; /* Normal font weight */
+    letter-spacing: 0.5px; /* Slight letter spacing for better readability */
+    text-transform: uppercase; /* Uppercase the text */
+}
+
+p:last-child {
+    font-weight: 700; /* Bold font weight for the last paragraph */
+    color: #a0a0a0; 
+}
